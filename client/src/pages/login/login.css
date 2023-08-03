@@ -1,0 +1,89 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-image: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600");
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-wrapper {
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+.login-left,
+.login-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-logo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #4c3a51;
+  margin-bottom: 10px;
+}
+.login-desc {
+  font-size: 24px;
+}
+.login-box {
+  height: 300px;
+  padding: 20px;
+  background-color: #f0f2f5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login-input {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.login-input:focus {
+  outline: none;
+}
+.login-button {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4c3a51;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.login-button:focus {
+  outline: none;
+}
+.login-button:disabled {
+  cursor: not-allowed;
+}
+.login-forgot {
+  text-align: center;
+  color: #4c3a51;
+}
+.login-register-button {
+  width: 50%;
+  align-self: center;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4c3a51;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.sign-up {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.sign-up-text {
+  padding: 10px;
+}
